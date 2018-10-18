@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FHXScannerVC_Example' do
+  pod 'FHXScannerVC', :path => '../'
+
+  target 'FHXScannerVC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

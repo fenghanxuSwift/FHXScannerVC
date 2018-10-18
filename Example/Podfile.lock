@@ -1,0 +1,16 @@
+PODS:
+  - FHXScannerVC (0.1.0)
+
+DEPENDENCIES:
+  - FHXScannerVC (from `../`)
+
+EXTERNAL SOURCES:
+  FHXScannerVC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FHXScannerVC: 9148f820422f0b9c0f98c25b4e2b4e8369e65ab4
+
+PODFILE CHECKSUM: 5d37ed3cf700d6bcbc9dd2c2c2afad01ec0f0c5c
+
+COCOAPODS: 1.5.3

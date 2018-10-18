@@ -1,0 +1,6 @@
+framework module Pods_FHXScannerVC_Tests {
+  umbrella header "Pods-FHXScannerVC_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
