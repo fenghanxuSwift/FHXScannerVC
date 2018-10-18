@@ -135,11 +135,11 @@ extension ScannerViewController {
       delegate?.ScannerViewController(vc: self, returnScanner: metaData.stringValue)
       
       //创建一个控制器，把网址填进去进行登录。
-      DispatchQueue.main.async(execute: {
-        let resultView = WebViewController()
-        resultView.url = metaData.stringValue
-        self.navigationController?.pushViewController(resultView, animated: true)
-      })
+//      DispatchQueue.main.async(execute: {
+//        let resultView = WebViewController()
+//        resultView.url = metaData.stringValue
+//        self.navigationController?.pushViewController(resultView, animated: true)
+//      })
       
       //停止扫描运行
       captureSession.stopRunning()
