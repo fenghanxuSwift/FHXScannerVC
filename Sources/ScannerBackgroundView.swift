@@ -27,7 +27,8 @@ class ScannerBackgroundView: UIView {
         
         //设置扫描线
         scanLine.frame = CGRect(x: 0, y: 0, width: barcodeView.frame.size.width, height: 5)
-        scanLine.image = UIImage(named: "QRCodeScanLine") ?? UIImage()
+//        scanLine.image = UIImage(named: "QRCodeScanLine") ?? UIImage()
+        scanLine.image = Asserts.findImages(named: "QRCodeScanLine") ?? UIImage()
         
         //添加扫描线图层
         barcodeView.addSubview(scanLine)
