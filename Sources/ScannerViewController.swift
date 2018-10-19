@@ -18,11 +18,6 @@ public class ScannerViewController: UIViewController,AVCaptureMetadataOutputObje
   //1.创建Session
   let captureSession = AVCaptureSession()
   
-//  public override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?){
-//    super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-//
-//  }
-  
   public init() {
     super.init(nibName: nil, bundle: nil)
     
@@ -134,7 +129,6 @@ extension ScannerViewController {
       print(metaData.stringValue)
       
       reultString?(metaData.stringValue)
-      
       
       //创建一个控制器，把网址填进去进行登录。
 //      DispatchQueue.main.async(execute: {

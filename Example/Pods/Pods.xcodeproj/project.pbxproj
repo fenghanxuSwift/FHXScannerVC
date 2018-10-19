@@ -15,14 +15,12 @@
 		4A8296A992A3958C0FE41BA6956211E7 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320B8292013F1DF6CD6431ABEB56E6C2 /* ScannerViewController.swift */; };
 		580A471E42B2EDB44EAC9B093710B2D8 /* ScannerBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE937505F64D54248BD0953E749C849 /* ScannerBackgroundView.swift */; };
 		69D2E505AA38DC66DD68FB00BE5FD41B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E432A47011C71691078ACC7FB03366B /* Foundation.framework */; };
-		7419F8F83AACBD813A8B38BEA1E647D4 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F24E1BF54A8379CC16B27CDE3E3953 /* WebViewController.swift */; };
 		7652788B6C69E4EFCAFA7EFFDB8D2B64 /* Asserts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD87950ACA2089495586BF04714B4EB /* Asserts.swift */; };
 		85718CF5073632D69B1E6C18686497D6 /* QRCodeScanLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2237B38449EE84583D9782CD0F2F5C2 /* QRCodeScanLine@2x.png */; };
 		86DD6123BE8198BC230FC2BCB398ECC4 /* FHXScannerVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 069EDA509732AA93B73F6C5D57806D99 /* FHXScannerVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8757F0D59AEB69B06B877479CAF60260 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2013C24F732042F1A3AD276BFD6BD3BB /* AVFoundation.framework */; };
 		C47EBA795930E77DD120ADB9D30F8D19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6308A4BD084E2824A4548AED0E98B2C1 /* UIKit.framework */; };
 		CD64D8753AB1CD1CE9EEA34031435F1B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E767ABB3610F6454489B420DE01618E /* WebKit.framework */; };
-		D6C11D3BA3F8FA7448B5C3ED1C022286 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77F1AED19817403E686434FB20D7BE5 /* ScannerView.swift */; };
 		E79B562247A18981E23E560C530AA25D /* Pods-FHXScannerVC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D82C89A8202700800E270B3C5E4A8178 /* Pods-FHXScannerVC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7F9D10D5A791173E2AC442E345AB362 /* Pods-FHXScannerVC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A78DEAEDC092AA47CA003FD76E5757B6 /* Pods-FHXScannerVC_Tests-dummy.m */; };
 		E8B08455A907D11A4079A5AF6599837B /* Pods-FHXScannerVC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E611579DD264E0CCAAC1C665F80828CF /* Pods-FHXScannerVC_Example-dummy.m */; };
@@ -55,14 +53,13 @@
 
 /* Begin PBXFileReference section */
 		069EDA509732AA93B73F6C5D57806D99 /* FHXScannerVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHXScannerVC.h; path = Sources/FHXScannerVC.h; sourceTree = "<group>"; };
-		0A1B0D8AA5B264D983E224BEA16FF538 /* Pods_FHXScannerVC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FHXScannerVC_Example.framework; path = "Pods-FHXScannerVC_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A1B0D8AA5B264D983E224BEA16FF538 /* Pods_FHXScannerVC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FHXScannerVC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		102FE12B7501845C77A50B038528A5F7 /* Pods-FHXScannerVC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FHXScannerVC_Tests.modulemap"; sourceTree = "<group>"; };
-		16BC642D96ECA19E4D1EAD563F18F813 /* FHXScannerVC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FHXScannerVC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		16BC642D96ECA19E4D1EAD563F18F813 /* FHXScannerVC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = FHXScannerVC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		18D7C6D67EAA293B80876900AF4D02F5 /* Pods-FHXScannerVC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FHXScannerVC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1D982C10270A74B0E7B0008F8D321AB1 /* FHXScannerVC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FHXScannerVC-dummy.m"; sourceTree = "<group>"; };
 		2013C24F732042F1A3AD276BFD6BD3BB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		26CD48B9A54E299370D25A8AD906BD36 /* Pods-FHXScannerVC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FHXScannerVC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		26F24E1BF54A8379CC16B27CDE3E3953 /* WebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = Sources/WebViewController.swift; sourceTree = "<group>"; };
 		320B8292013F1DF6CD6431ABEB56E6C2 /* ScannerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScannerViewController.swift; path = Sources/ScannerViewController.swift; sourceTree = "<group>"; };
 		49A39046589FE3F8E74624A72DFC2C14 /* Pods-FHXScannerVC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FHXScannerVC_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4A58FA542961558C4CCF839BCFAC7822 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,28 +74,27 @@
 		81B3E34B4B5189CA72F610F5CF4AFA5F /* Pods-FHXScannerVC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FHXScannerVC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		870E210B070291210EA95B304FF630A2 /* FHXScannerVC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FHXScannerVC.xcconfig; sourceTree = "<group>"; };
 		8E767ABB3610F6454489B420DE01618E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93D93D111856DAB866B98E3A20C0BC39 /* FHXScannerVC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FHXScannerVC-umbrella.h"; sourceTree = "<group>"; };
-		98017CFA9A4661D35B56C355B9A95E4B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		98017CFA9A4661D35B56C355B9A95E4B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9E432A47011C71691078ACC7FB03366B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9EAECBFFD81E2C3F28ABE0E5F13ED884 /* Pods-FHXScannerVC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FHXScannerVC_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A00916D939C533F362E289A8845FD7F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A00916D939C533F362E289A8845FD7F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A78DEAEDC092AA47CA003FD76E5757B6 /* Pods-FHXScannerVC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FHXScannerVC_Tests-dummy.m"; sourceTree = "<group>"; };
 		B0C586065A94C432AD33424279100739 /* Pods-FHXScannerVC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FHXScannerVC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B1A01BAF8A448988752A0A10A0222840 /* Pods-FHXScannerVC_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FHXScannerVC_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C05266F166CFC4195D3D563F9BD90420 /* Pods-FHXScannerVC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FHXScannerVC_Example.modulemap"; sourceTree = "<group>"; };
 		C2237B38449EE84583D9782CD0F2F5C2 /* QRCodeScanLine@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "QRCodeScanLine@2x.png"; path = "Asserts.bundle/QRCodeScanLine@2x.png"; sourceTree = "<group>"; };
-		D1112CE2F05CB1D2A5958913C4A811DB /* FHXScannerVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FHXScannerVC.framework; path = FHXScannerVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1112CE2F05CB1D2A5958913C4A811DB /* FHXScannerVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FHXScannerVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3B140E932E18F053908019B33F2DC9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D77F1AED19817403E686434FB20D7BE5 /* ScannerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScannerView.swift; path = Sources/ScannerView.swift; sourceTree = "<group>"; };
 		D82C89A8202700800E270B3C5E4A8178 /* Pods-FHXScannerVC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FHXScannerVC_Example-umbrella.h"; sourceTree = "<group>"; };
 		DAC6143039F60F1B167C09E678A1C4C4 /* FHXScannerVC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FHXScannerVC-prefix.pch"; sourceTree = "<group>"; };
-		DFAC07999C8CD9E56F598369891D1D75 /* Asserts.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Asserts.bundle; path = "FHXScannerVC-Asserts.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFAC07999C8CD9E56F598369891D1D75 /* Asserts.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Asserts.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0118F4BDC3FAC1082C98A7F4564CF40 /* Pods-FHXScannerVC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FHXScannerVC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E5CEACCB51BB84160BBAD9DCF1944251 /* ResourceBundle-Asserts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Asserts-Info.plist"; sourceTree = "<group>"; };
 		E611579DD264E0CCAAC1C665F80828CF /* Pods-FHXScannerVC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FHXScannerVC_Example-dummy.m"; sourceTree = "<group>"; };
 		E983AF801087DA0B01E10EB8D9FD332C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F928DAA4634E0D0B562E6630934D938D /* Pods_FHXScannerVC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FHXScannerVC_Tests.framework; path = "Pods-FHXScannerVC_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F928DAA4634E0D0B562E6630934D938D /* Pods_FHXScannerVC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FHXScannerVC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE937505F64D54248BD0953E749C849 /* ScannerBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScannerBackgroundView.swift; path = Sources/ScannerBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,9 +211,7 @@
 				6DD87950ACA2089495586BF04714B4EB /* Asserts.swift */,
 				069EDA509732AA93B73F6C5D57806D99 /* FHXScannerVC.h */,
 				FDE937505F64D54248BD0953E749C849 /* ScannerBackgroundView.swift */,
-				D77F1AED19817403E686434FB20D7BE5 /* ScannerView.swift */,
 				320B8292013F1DF6CD6431ABEB56E6C2 /* ScannerViewController.swift */,
-				26F24E1BF54A8379CC16B27CDE3E3953 /* WebViewController.swift */,
 				16EB52E757BFCE0DB874D0467B25449D /* Pod */,
 				94C5228E7A95881F876FF76474DD7910 /* Resources */,
 				9A3C86312B0752EB7670826373ED6A35 /* Support Files */,
@@ -482,9 +476,7 @@
 				7652788B6C69E4EFCAFA7EFFDB8D2B64 /* Asserts.swift in Sources */,
 				0B05FC1BEC4E5E8908A2994523E7F4B2 /* FHXScannerVC-dummy.m in Sources */,
 				580A471E42B2EDB44EAC9B093710B2D8 /* ScannerBackgroundView.swift in Sources */,
-				D6C11D3BA3F8FA7448B5C3ED1C022286 /* ScannerView.swift in Sources */,
 				4A8296A992A3958C0FE41BA6956211E7 /* ScannerViewController.swift in Sources */,
-				7419F8F83AACBD813A8B38BEA1E647D4 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,8 +528,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -639,8 +630,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
