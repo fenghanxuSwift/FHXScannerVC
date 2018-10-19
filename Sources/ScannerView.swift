@@ -22,3 +22,7 @@ public class ScannerView: UIView {
   }
   
 }
+
+extension ScannerView {
+  
+}
