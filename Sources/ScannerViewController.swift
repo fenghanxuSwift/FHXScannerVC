@@ -15,7 +15,7 @@ public protocol ScannerViewControllerDelegate:NSObjectProtocol {
 
 public class ScannerViewController: UIViewController,AVCaptureMetadataOutputObjectsDelegate {
   
-  weak var delegate:ScannerViewControllerDelegate?
+  public weak var delegate:ScannerViewControllerDelegate?
   
   //相机显示视图--苹果协议规定是串行队列
   let cameraView = ScannerBackgroundView(frame: UIScreen.main.bounds)
