@@ -1,8 +1,9 @@
 //
-//  Asserts.swift
-//  EmptyPage
+//  ScannerViewController.swift
+//  Demol
 //
-//  Created by linhey on 2018/1/19.
+//  Created by 冯汉栩 on 2018/17/10.
+//  Copyright © 2018年 hanxuFeng. All rights reserved.
 //
 
 import UIKit

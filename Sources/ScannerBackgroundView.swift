@@ -1,9 +1,9 @@
 //
-//  ScannerBackgroundView.swift
-//  BDHome
+//  ScannerViewController.swift
+//  Demol
 //
-//  Created by Erwin on 16/6/17.
-//  Copyright © 2016年 BDHome. All rights reserved.
+//  Created by 冯汉栩 on 2018/17/10.
+//  Copyright © 2018年 hanxuFeng. All rights reserved.
 //
 
 import UIKit

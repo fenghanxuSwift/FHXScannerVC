@@ -2,8 +2,8 @@
 //  ScannerViewController.swift
 //  Demol
 //
-//  Created by 冯汉栩 on 2017/5/12.
-//  Copyright © 2017年 hanxuFeng. All rights reserved.
+//  Created by 冯汉栩 on 2018/17/10.
+//  Copyright © 2018年 hanxuFeng. All rights reserved.
 //
 
 import UIKit
