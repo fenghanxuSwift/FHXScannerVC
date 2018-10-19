@@ -28,7 +28,8 @@ class ViewController: UIViewController {
     }
 
   @objc func scanBtnClick(){
-    navigationController?.pushViewController(ScannerViewController(), animated: true)
+    let vc = ScannerViewController()
+    navigationController?.pushViewController(vc, animated: true)
 //    navigationController?.pushViewController(WebViewController(), animated: true)
   }
 
