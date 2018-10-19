@@ -7,35 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		017B56B0FC05395F8B58C913DED90302 /* Asserts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F19B481D76E5118386EA33495C444C4 /* Asserts.swift */; };
-		01B7C6164EE3607A8C95F1B7284A8514 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2013C24F732042F1A3AD276BFD6BD3BB /* AVFoundation.framework */; };
-		13B0A3A5C9899EF02A5C5B96C5E6F7F9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4EFD432B0582A9A68761CEA10428E /* WebViewController.swift */; };
-		143526C7B42CD3F9A8E1370809E99784 /* QRCodeScanLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 932A176E99237BA1E7066D0229FAE467 /* QRCodeScanLine@2x.png */; };
+		0B05FC1BEC4E5E8908A2994523E7F4B2 /* FHXScannerVC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D982C10270A74B0E7B0008F8D321AB1 /* FHXScannerVC-dummy.m */; };
 		164BCAC0DBC0BAEA24F760C4D8B826FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E432A47011C71691078ACC7FB03366B /* Foundation.framework */; };
 		1AAE959F55A91090D4EE2F0B1EF2B576 /* Pods-FHXScannerVC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A39046589FE3F8E74624A72DFC2C14 /* Pods-FHXScannerVC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D2EE44C04E529D48CAADCF513A271A1 /* Asserts.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DFAC07999C8CD9E56F598369891D1D75 /* Asserts.bundle */; };
-		623498FED95F636C7091D1746B78B6DB /* FHXScannerVC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E84BFB715DBFADEF86DEF7864169D7FA /* FHXScannerVC-dummy.m */; };
-		671C3290215EC47FBCE0D81FEB0920AA /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E767ABB3610F6454489B420DE01618E /* WebKit.framework */; };
-		680CDDB11841AC954483468FA6B54C9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6308A4BD084E2824A4548AED0E98B2C1 /* UIKit.framework */; };
+		21DB28B563B7D88DB20E5C288D5D9634 /* Asserts.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DFAC07999C8CD9E56F598369891D1D75 /* Asserts.bundle */; };
+		3505C4D3C625BF9A45376F4D009B12D0 /* FHXScannerVC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D93D111856DAB866B98E3A20C0BC39 /* FHXScannerVC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A8296A992A3958C0FE41BA6956211E7 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320B8292013F1DF6CD6431ABEB56E6C2 /* ScannerViewController.swift */; };
+		580A471E42B2EDB44EAC9B093710B2D8 /* ScannerBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE937505F64D54248BD0953E749C849 /* ScannerBackgroundView.swift */; };
 		69D2E505AA38DC66DD68FB00BE5FD41B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E432A47011C71691078ACC7FB03366B /* Foundation.framework */; };
-		7DC22DC7489C08C46A9966E3740CF426 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E432A47011C71691078ACC7FB03366B /* Foundation.framework */; };
-		81DC321DF99F133C2EAB611291DDF42E /* FHXScannerVC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A009DFAF685BFA4A51916304C78A567 /* FHXScannerVC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C97660E92189E0AF9C905B5119B3F62A /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7C7826C5FA33C50E493FC1C6972925 /* ScannerViewController.swift */; };
+		7419F8F83AACBD813A8B38BEA1E647D4 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F24E1BF54A8379CC16B27CDE3E3953 /* WebViewController.swift */; };
+		7652788B6C69E4EFCAFA7EFFDB8D2B64 /* Asserts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD87950ACA2089495586BF04714B4EB /* Asserts.swift */; };
+		85718CF5073632D69B1E6C18686497D6 /* QRCodeScanLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2237B38449EE84583D9782CD0F2F5C2 /* QRCodeScanLine@2x.png */; };
+		86DD6123BE8198BC230FC2BCB398ECC4 /* FHXScannerVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 069EDA509732AA93B73F6C5D57806D99 /* FHXScannerVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8757F0D59AEB69B06B877479CAF60260 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2013C24F732042F1A3AD276BFD6BD3BB /* AVFoundation.framework */; };
+		C47EBA795930E77DD120ADB9D30F8D19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6308A4BD084E2824A4548AED0E98B2C1 /* UIKit.framework */; };
+		CD64D8753AB1CD1CE9EEA34031435F1B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E767ABB3610F6454489B420DE01618E /* WebKit.framework */; };
+		D6C11D3BA3F8FA7448B5C3ED1C022286 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77F1AED19817403E686434FB20D7BE5 /* ScannerView.swift */; };
 		E79B562247A18981E23E560C530AA25D /* Pods-FHXScannerVC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D82C89A8202700800E270B3C5E4A8178 /* Pods-FHXScannerVC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7F9D10D5A791173E2AC442E345AB362 /* Pods-FHXScannerVC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A78DEAEDC092AA47CA003FD76E5757B6 /* Pods-FHXScannerVC_Tests-dummy.m */; };
 		E8B08455A907D11A4079A5AF6599837B /* Pods-FHXScannerVC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E611579DD264E0CCAAC1C665F80828CF /* Pods-FHXScannerVC_Example-dummy.m */; };
-		F04E9FBEE9C4DF7D9C4AB334AECB493F /* ScannerBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94E4B83DAFB1EB7E186C5AFFE4F65C2 /* ScannerBackgroundView.swift */; };
-		F26C0ACD8740426C48ECFADB4B813393 /* FHXScannerVC.h in Headers */ = {isa = PBXBuildFile; fileRef = DA61D29DA4DDCB3E9DA72E1AD9234F4F /* FHXScannerVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE4BE32D25D125EA6585F0FA5058E0EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E432A47011C71691078ACC7FB03366B /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1A0B64350534905CAAEE86A4BEDE273C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DB7C7860EF9207FDF947BC73AE740104;
-			remoteInfo = "FHXScannerVC-Asserts";
-		};
 		4673CC76C2CD345607A236CDCF70B4A6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -43,64 +37,83 @@
 			remoteGlobalIDString = E2C873150CB8CF4529BBB4B09340DE70;
 			remoteInfo = "Pods-FHXScannerVC_Example";
 		};
+		BF826DD5868A8D589957B934B3CD68B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B737A3D827C6518DCB973D07B98BF84D;
+			remoteInfo = "FHXScannerVC-Asserts";
+		};
 		D3C7FBC137A234D264D8806663721154 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 42C5B17990E54BCE8FFA23E525F4C5FA;
+			remoteGlobalIDString = 0544EC19497E3BE87450FBD7541D4099;
 			remoteInfo = FHXScannerVC;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		069EDA509732AA93B73F6C5D57806D99 /* FHXScannerVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHXScannerVC.h; path = Sources/FHXScannerVC.h; sourceTree = "<group>"; };
 		0A1B0D8AA5B264D983E224BEA16FF538 /* Pods_FHXScannerVC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FHXScannerVC_Example.framework; path = "Pods-FHXScannerVC_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		102FE12B7501845C77A50B038528A5F7 /* Pods-FHXScannerVC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FHXScannerVC_Tests.modulemap"; sourceTree = "<group>"; };
+		16BC642D96ECA19E4D1EAD563F18F813 /* FHXScannerVC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FHXScannerVC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		18D7C6D67EAA293B80876900AF4D02F5 /* Pods-FHXScannerVC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FHXScannerVC_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		19BBC3AF63BE6B9CB0CADA1C9D75439D /* FHXScannerVC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FHXScannerVC.xcconfig; sourceTree = "<group>"; };
+		1D982C10270A74B0E7B0008F8D321AB1 /* FHXScannerVC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FHXScannerVC-dummy.m"; sourceTree = "<group>"; };
 		2013C24F732042F1A3AD276BFD6BD3BB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		2494610284274B9CB517F42C9ADD443C /* FHXScannerVC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FHXScannerVC.modulemap; sourceTree = "<group>"; };
 		26CD48B9A54E299370D25A8AD906BD36 /* Pods-FHXScannerVC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FHXScannerVC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		47FCEA80FBB907E03DDC0CAB9DA0F98D /* ResourceBundle-Asserts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Asserts-Info.plist"; sourceTree = "<group>"; };
+		26F24E1BF54A8379CC16B27CDE3E3953 /* WebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = Sources/WebViewController.swift; sourceTree = "<group>"; };
+		320B8292013F1DF6CD6431ABEB56E6C2 /* ScannerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScannerViewController.swift; path = Sources/ScannerViewController.swift; sourceTree = "<group>"; };
 		49A39046589FE3F8E74624A72DFC2C14 /* Pods-FHXScannerVC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FHXScannerVC_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4A58FA542961558C4CCF839BCFAC7822 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541DC68C4E2F2E5160DBF0D6DE3D72E0 /* FHXScannerVC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FHXScannerVC.modulemap; sourceTree = "<group>"; };
 		553DAA30B7511C04CD121484CA1855F8 /* Pods-FHXScannerVC_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FHXScannerVC_Example-resources.sh"; sourceTree = "<group>"; };
-		563DC8694EE239845B2196E9E3A62C92 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6308A4BD084E2824A4548AED0E98B2C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		6364F960E47BC32F0B52339F88415DBD /* Pods-FHXScannerVC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FHXScannerVC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		66F6B29815C7AB4B3CCB1347BFE3BBAB /* Pods-FHXScannerVC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FHXScannerVC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6A009DFAF685BFA4A51916304C78A567 /* FHXScannerVC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FHXScannerVC-umbrella.h"; sourceTree = "<group>"; };
+		6DD87950ACA2089495586BF04714B4EB /* Asserts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Asserts.swift; path = Sources/Asserts.swift; sourceTree = "<group>"; };
 		784E3093B58459A08DF799FDFC7EF652 /* Pods-FHXScannerVC_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FHXScannerVC_Tests-resources.sh"; sourceTree = "<group>"; };
 		793D47BAB9D1163EEA81B742FB75BC4F /* Pods-FHXScannerVC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FHXScannerVC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		81B3E34B4B5189CA72F610F5CF4AFA5F /* Pods-FHXScannerVC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FHXScannerVC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		870E210B070291210EA95B304FF630A2 /* FHXScannerVC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FHXScannerVC.xcconfig; sourceTree = "<group>"; };
 		8E767ABB3610F6454489B420DE01618E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
-		932A176E99237BA1E7066D0229FAE467 /* QRCodeScanLine@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "QRCodeScanLine@2x.png"; path = "Asserts.bundle/QRCodeScanLine@2x.png"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93D93D111856DAB866B98E3A20C0BC39 /* FHXScannerVC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FHXScannerVC-umbrella.h"; sourceTree = "<group>"; };
+		98017CFA9A4661D35B56C355B9A95E4B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9E432A47011C71691078ACC7FB03366B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9EAECBFFD81E2C3F28ABE0E5F13ED884 /* Pods-FHXScannerVC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FHXScannerVC_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9F19B481D76E5118386EA33495C444C4 /* Asserts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Asserts.swift; path = Sources/Asserts.swift; sourceTree = "<group>"; };
+		A00916D939C533F362E289A8845FD7F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A78DEAEDC092AA47CA003FD76E5757B6 /* Pods-FHXScannerVC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FHXScannerVC_Tests-dummy.m"; sourceTree = "<group>"; };
-		AAA562527AC299F9918512C7CDB7A937 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		AC7C7826C5FA33C50E493FC1C6972925 /* ScannerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScannerViewController.swift; path = Sources/ScannerViewController.swift; sourceTree = "<group>"; };
 		B0C586065A94C432AD33424279100739 /* Pods-FHXScannerVC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FHXScannerVC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B1A01BAF8A448988752A0A10A0222840 /* Pods-FHXScannerVC_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FHXScannerVC_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C05266F166CFC4195D3D563F9BD90420 /* Pods-FHXScannerVC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FHXScannerVC_Example.modulemap"; sourceTree = "<group>"; };
-		C94E4B83DAFB1EB7E186C5AFFE4F65C2 /* ScannerBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScannerBackgroundView.swift; path = Sources/ScannerBackgroundView.swift; sourceTree = "<group>"; };
-		CCE4EFD432B0582A9A68761CEA10428E /* WebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = Sources/WebViewController.swift; sourceTree = "<group>"; };
-		CD73F3D3116C19B2C2E53FB70586FA2C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDB16A4B32FC06592599127DF4B8FC8A /* FHXScannerVC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FHXScannerVC-prefix.pch"; sourceTree = "<group>"; };
+		C2237B38449EE84583D9782CD0F2F5C2 /* QRCodeScanLine@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "QRCodeScanLine@2x.png"; path = "Asserts.bundle/QRCodeScanLine@2x.png"; sourceTree = "<group>"; };
 		D1112CE2F05CB1D2A5958913C4A811DB /* FHXScannerVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FHXScannerVC.framework; path = FHXScannerVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3B140E932E18F053908019B33F2DC9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D77F1AED19817403E686434FB20D7BE5 /* ScannerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScannerView.swift; path = Sources/ScannerView.swift; sourceTree = "<group>"; };
 		D82C89A8202700800E270B3C5E4A8178 /* Pods-FHXScannerVC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FHXScannerVC_Example-umbrella.h"; sourceTree = "<group>"; };
-		D99A501D1FB7A585811DA2C12D6D326C /* FHXScannerVC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FHXScannerVC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		DA61D29DA4DDCB3E9DA72E1AD9234F4F /* FHXScannerVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHXScannerVC.h; path = Sources/FHXScannerVC.h; sourceTree = "<group>"; };
+		DAC6143039F60F1B167C09E678A1C4C4 /* FHXScannerVC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FHXScannerVC-prefix.pch"; sourceTree = "<group>"; };
 		DFAC07999C8CD9E56F598369891D1D75 /* Asserts.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Asserts.bundle; path = "FHXScannerVC-Asserts.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0118F4BDC3FAC1082C98A7F4564CF40 /* Pods-FHXScannerVC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FHXScannerVC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E5CEACCB51BB84160BBAD9DCF1944251 /* ResourceBundle-Asserts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Asserts-Info.plist"; sourceTree = "<group>"; };
 		E611579DD264E0CCAAC1C665F80828CF /* Pods-FHXScannerVC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FHXScannerVC_Example-dummy.m"; sourceTree = "<group>"; };
-		E84BFB715DBFADEF86DEF7864169D7FA /* FHXScannerVC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FHXScannerVC-dummy.m"; sourceTree = "<group>"; };
 		E983AF801087DA0B01E10EB8D9FD332C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F928DAA4634E0D0B562E6630934D938D /* Pods_FHXScannerVC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FHXScannerVC_Tests.framework; path = "Pods-FHXScannerVC_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE937505F64D54248BD0953E749C849 /* ScannerBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScannerBackgroundView.swift; path = Sources/ScannerBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		220B39EF8439FB7F9320CBA2186E7F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8757F0D59AEB69B06B877479CAF60260 /* AVFoundation.framework in Frameworks */,
+				EE4BE32D25D125EA6585F0FA5058E0EF /* Foundation.framework in Frameworks */,
+				C47EBA795930E77DD120ADB9D30F8D19 /* UIKit.framework in Frameworks */,
+				CD64D8753AB1CD1CE9EEA34031435F1B /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		45C12498E0F9D8261AA970A1F56A2CED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -117,37 +130,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2F90C53A43C7A9764A8F2631D9AED0F /* Frameworks */ = {
+		5B066197A3F2E0D8949A06B9AB179F58 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6477467B520DDEC1620A09920516F10 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				01B7C6164EE3607A8C95F1B7284A8514 /* AVFoundation.framework in Frameworks */,
-				7DC22DC7489C08C46A9966E3740CF426 /* Foundation.framework in Frameworks */,
-				680CDDB11841AC954483468FA6B54C9B /* UIKit.framework in Frameworks */,
-				671C3290215EC47FBCE0D81FEB0920AA /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01488BB7B1BE88AC3B99B77919C7BA2F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D99A501D1FB7A585811DA2C12D6D326C /* FHXScannerVC.podspec */,
-				563DC8694EE239845B2196E9E3A62C92 /* LICENSE */,
-				AAA562527AC299F9918512C7CDB7A937 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		0313C077FDB175421AD035FBCBBFB484 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,27 +151,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		0BB300ADCE6FF6A86A71512C08A6DA2B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2494610284274B9CB517F42C9ADD443C /* FHXScannerVC.modulemap */,
-				19BBC3AF63BE6B9CB0CADA1C9D75439D /* FHXScannerVC.xcconfig */,
-				E84BFB715DBFADEF86DEF7864169D7FA /* FHXScannerVC-dummy.m */,
-				CDB16A4B32FC06592599127DF4B8FC8A /* FHXScannerVC-prefix.pch */,
-				6A009DFAF685BFA4A51916304C78A567 /* FHXScannerVC-umbrella.h */,
-				CD73F3D3116C19B2C2E53FB70586FA2C /* Info.plist */,
-				47FCEA80FBB907E03DDC0CAB9DA0F98D /* ResourceBundle-Asserts-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FHXScannerVC";
-			sourceTree = "<group>";
-		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				0313C077FDB175421AD035FBCBBFB484 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16EB52E757BFCE0DB874D0467B25449D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				16BC642D96ECA19E4D1EAD563F18F813 /* FHXScannerVC.podspec */,
+				A00916D939C533F362E289A8845FD7F8 /* LICENSE */,
+				98017CFA9A4661D35B56C355B9A95E4B /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		2A3FBDD9200A4D237DD70A13F1406DAC /* Pods-FHXScannerVC_Tests */ = {
@@ -200,19 +187,11 @@
 			path = "Target Support Files/Pods-FHXScannerVC_Tests";
 			sourceTree = "<group>";
 		};
-		3A1565EA5692945658D15AC37ED65ADA /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EB61D0E91F76EE603CBC8F7E0795DB5C /* FHXScannerVC */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				3A1565EA5692945658D15AC37ED65ADA /* Development Pods */,
+				B2BE5D532F09ED74396CA115A19C0AD2 /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				885B9182183FB787CD323C254E3BD7E1 /* Products */,
 				920949392F17355BD4C7C654A3F59F87 /* Targets Support Files */,
@@ -230,6 +209,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		8F76FC89F91EDCBAB3C2E8AA58C89A24 /* FHXScannerVC */ = {
+			isa = PBXGroup;
+			children = (
+				6DD87950ACA2089495586BF04714B4EB /* Asserts.swift */,
+				069EDA509732AA93B73F6C5D57806D99 /* FHXScannerVC.h */,
+				FDE937505F64D54248BD0953E749C849 /* ScannerBackgroundView.swift */,
+				D77F1AED19817403E686434FB20D7BE5 /* ScannerView.swift */,
+				320B8292013F1DF6CD6431ABEB56E6C2 /* ScannerViewController.swift */,
+				26F24E1BF54A8379CC16B27CDE3E3953 /* WebViewController.swift */,
+				16EB52E757BFCE0DB874D0467B25449D /* Pod */,
+				94C5228E7A95881F876FF76474DD7910 /* Resources */,
+				9A3C86312B0752EB7670826373ED6A35 /* Support Files */,
+			);
+			name = FHXScannerVC;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		920949392F17355BD4C7C654A3F59F87 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,12 +235,35 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		ACF7B2BEBE92AEE2625392861C35C5A0 /* Resources */ = {
+		94C5228E7A95881F876FF76474DD7910 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				932A176E99237BA1E7066D0229FAE467 /* QRCodeScanLine@2x.png */,
+				C2237B38449EE84583D9782CD0F2F5C2 /* QRCodeScanLine@2x.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		9A3C86312B0752EB7670826373ED6A35 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				541DC68C4E2F2E5160DBF0D6DE3D72E0 /* FHXScannerVC.modulemap */,
+				870E210B070291210EA95B304FF630A2 /* FHXScannerVC.xcconfig */,
+				1D982C10270A74B0E7B0008F8D321AB1 /* FHXScannerVC-dummy.m */,
+				DAC6143039F60F1B167C09E678A1C4C4 /* FHXScannerVC-prefix.pch */,
+				93D93D111856DAB866B98E3A20C0BC39 /* FHXScannerVC-umbrella.h */,
+				4A58FA542961558C4CCF839BCFAC7822 /* Info.plist */,
+				E5CEACCB51BB84160BBAD9DCF1944251 /* ResourceBundle-Asserts-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FHXScannerVC";
+			sourceTree = "<group>";
+		};
+		B2BE5D532F09ED74396CA115A19C0AD2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F76FC89F91EDCBAB3C2E8AA58C89A24 /* FHXScannerVC */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		DD58E04295E713A55D566B9D01822BE7 /* Pods-FHXScannerVC_Example */ = {
@@ -263,22 +282,6 @@
 			);
 			name = "Pods-FHXScannerVC_Example";
 			path = "Target Support Files/Pods-FHXScannerVC_Example";
-			sourceTree = "<group>";
-		};
-		EB61D0E91F76EE603CBC8F7E0795DB5C /* FHXScannerVC */ = {
-			isa = PBXGroup;
-			children = (
-				9F19B481D76E5118386EA33495C444C4 /* Asserts.swift */,
-				DA61D29DA4DDCB3E9DA72E1AD9234F4F /* FHXScannerVC.h */,
-				C94E4B83DAFB1EB7E186C5AFFE4F65C2 /* ScannerBackgroundView.swift */,
-				AC7C7826C5FA33C50E493FC1C6972925 /* ScannerViewController.swift */,
-				CCE4EFD432B0582A9A68761CEA10428E /* WebViewController.swift */,
-				01488BB7B1BE88AC3B99B77919C7BA2F /* Pod */,
-				ACF7B2BEBE92AEE2625392861C35C5A0 /* Resources */,
-				0BB300ADCE6FF6A86A71512C08A6DA2B /* Support Files */,
-			);
-			name = FHXScannerVC;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,31 +303,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6D2635B20DD7687F5F5622E9779A7E7 /* Headers */ = {
+		8F11B700B06C12B0675927D8114B82E8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81DC321DF99F133C2EAB611291DDF42E /* FHXScannerVC-umbrella.h in Headers */,
-				F26C0ACD8740426C48ECFADB4B813393 /* FHXScannerVC.h in Headers */,
+				3505C4D3C625BF9A45376F4D009B12D0 /* FHXScannerVC-umbrella.h in Headers */,
+				86DD6123BE8198BC230FC2BCB398ECC4 /* FHXScannerVC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		42C5B17990E54BCE8FFA23E525F4C5FA /* FHXScannerVC */ = {
+		0544EC19497E3BE87450FBD7541D4099 /* FHXScannerVC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F47CEE3A0BABFD6EC096DDC075529A5 /* Build configuration list for PBXNativeTarget "FHXScannerVC" */;
+			buildConfigurationList = 179D374A8171237B7E461C0701D8D65A /* Build configuration list for PBXNativeTarget "FHXScannerVC" */;
 			buildPhases = (
-				C6D2635B20DD7687F5F5622E9779A7E7 /* Headers */,
-				9CD7A1268FE45A8363E48678D45F8DA2 /* Sources */,
-				B6477467B520DDEC1620A09920516F10 /* Frameworks */,
-				09CD873F5F740CD549041BEC101694CA /* Resources */,
+				8F11B700B06C12B0675927D8114B82E8 /* Headers */,
+				809D0649EDAE272EF43E6336810970A3 /* Sources */,
+				220B39EF8439FB7F9320CBA2186E7F0E /* Frameworks */,
+				551DDF5A0AF0E3AD55ABEE0C991253F3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				962A0A921858FCA79D15F518487A26EB /* PBXTargetDependency */,
+				AE6DD994ABE7E2499572FAA2C8A14778 /* PBXTargetDependency */,
 			);
 			name = FHXScannerVC;
 			productName = FHXScannerVC;
@@ -350,13 +353,13 @@
 			productReference = F928DAA4634E0D0B562E6630934D938D /* Pods_FHXScannerVC_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DB7C7860EF9207FDF947BC73AE740104 /* FHXScannerVC-Asserts */ = {
+		B737A3D827C6518DCB973D07B98BF84D /* FHXScannerVC-Asserts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A19AB7EDF1F99BF18CA26463CA37F11 /* Build configuration list for PBXNativeTarget "FHXScannerVC-Asserts" */;
+			buildConfigurationList = 0C7F39A0525830380A02CA690932250E /* Build configuration list for PBXNativeTarget "FHXScannerVC-Asserts" */;
 			buildPhases = (
-				7CD9C84918DC857B97F60D64E5BFD350 /* Sources */,
-				B2F90C53A43C7A9764A8F2631D9AED0F /* Frameworks */,
-				A49991B82F15ECEE4FE4C2AD1A284A9C /* Resources */,
+				2F7EE63F4B3A965EE706A2079ABA20E8 /* Sources */,
+				5B066197A3F2E0D8949A06B9AB179F58 /* Frameworks */,
+				80C2D41199E978456AA7CFEA5F5D9121 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -407,8 +410,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				42C5B17990E54BCE8FFA23E525F4C5FA /* FHXScannerVC */,
-				DB7C7860EF9207FDF947BC73AE740104 /* FHXScannerVC-Asserts */,
+				0544EC19497E3BE87450FBD7541D4099 /* FHXScannerVC */,
+				B737A3D827C6518DCB973D07B98BF84D /* FHXScannerVC-Asserts */,
 				E2C873150CB8CF4529BBB4B09340DE70 /* Pods-FHXScannerVC_Example */,
 				B3398D55B4B469C0C22A619BA35E4ACA /* Pods-FHXScannerVC_Tests */,
 			);
@@ -416,11 +419,19 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		09CD873F5F740CD549041BEC101694CA /* Resources */ = {
+		551DDF5A0AF0E3AD55ABEE0C991253F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D2EE44C04E529D48CAADCF513A271A1 /* Asserts.bundle in Resources */,
+				21DB28B563B7D88DB20E5C288D5D9634 /* Asserts.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C2D41199E978456AA7CFEA5F5D9121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85718CF5073632D69B1E6C18686497D6 /* QRCodeScanLine@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,14 +439,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A49991B82F15ECEE4FE4C2AD1A284A9C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				143526C7B42CD3F9A8E1370809E99784 /* QRCodeScanLine@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +452,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2F7EE63F4B3A965EE706A2079ABA20E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4D4F885403CF563541C37B2E3AD8AC4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -465,22 +475,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CD9C84918DC857B97F60D64E5BFD350 /* Sources */ = {
+		809D0649EDAE272EF43E6336810970A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9CD7A1268FE45A8363E48678D45F8DA2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				017B56B0FC05395F8B58C913DED90302 /* Asserts.swift in Sources */,
-				623498FED95F636C7091D1746B78B6DB /* FHXScannerVC-dummy.m in Sources */,
-				F04E9FBEE9C4DF7D9C4AB334AECB493F /* ScannerBackgroundView.swift in Sources */,
-				C97660E92189E0AF9C905B5119B3F62A /* ScannerViewController.swift in Sources */,
-				13B0A3A5C9899EF02A5C5B96C5E6F7F9 /* WebViewController.swift in Sources */,
+				7652788B6C69E4EFCAFA7EFFDB8D2B64 /* Asserts.swift in Sources */,
+				0B05FC1BEC4E5E8908A2994523E7F4B2 /* FHXScannerVC-dummy.m in Sources */,
+				580A471E42B2EDB44EAC9B093710B2D8 /* ScannerBackgroundView.swift in Sources */,
+				D6C11D3BA3F8FA7448B5C3ED1C022286 /* ScannerView.swift in Sources */,
+				4A8296A992A3958C0FE41BA6956211E7 /* ScannerViewController.swift in Sources */,
+				7419F8F83AACBD813A8B38BEA1E647D4 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,34 +497,52 @@
 			target = E2C873150CB8CF4529BBB4B09340DE70 /* Pods-FHXScannerVC_Example */;
 			targetProxy = 4673CC76C2CD345607A236CDCF70B4A6 /* PBXContainerItemProxy */;
 		};
-		962A0A921858FCA79D15F518487A26EB /* PBXTargetDependency */ = {
+		AE6DD994ABE7E2499572FAA2C8A14778 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "FHXScannerVC-Asserts";
-			target = DB7C7860EF9207FDF947BC73AE740104 /* FHXScannerVC-Asserts */;
-			targetProxy = 1A0B64350534905CAAEE86A4BEDE273C /* PBXContainerItemProxy */;
+			target = B737A3D827C6518DCB973D07B98BF84D /* FHXScannerVC-Asserts */;
+			targetProxy = BF826DD5868A8D589957B934B3CD68B4 /* PBXContainerItemProxy */;
 		};
 		F208D0A8E5DA82DDA456D0C015CA19D9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FHXScannerVC;
-			target = 42C5B17990E54BCE8FFA23E525F4C5FA /* FHXScannerVC */;
+			target = 0544EC19497E3BE87450FBD7541D4099 /* FHXScannerVC */;
 			targetProxy = D3C7FBC137A234D264D8806663721154 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A7B2B71E57B663358048E9C674AAD85 /* Release */ = {
+		0E18B771C8E48BD2D712AD616D9D40CC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19BBC3AF63BE6B9CB0CADA1C9D75439D /* FHXScannerVC.xcconfig */;
+			baseConfigurationReference = 870E210B070291210EA95B304FF630A2 /* FHXScannerVC.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FHXScannerVC";
-				INFOPLIST_FILE = "Target Support Files/FHXScannerVC/ResourceBundle-Asserts-Info.plist";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FHXScannerVC/FHXScannerVC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FHXScannerVC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = Asserts;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FHXScannerVC/FHXScannerVC.modulemap";
+				PRODUCT_MODULE_NAME = FHXScannerVC;
+				PRODUCT_NAME = FHXScannerVC;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -558,37 +580,37 @@
 			};
 			name = Release;
 		};
-		3F4E85F0CC3757F1E8D18C7AA68B7B44 /* Debug */ = {
+		4AE46F3DFA236547FAABD27DE1F94A8F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19BBC3AF63BE6B9CB0CADA1C9D75439D /* FHXScannerVC.xcconfig */;
+			baseConfigurationReference = 870E210B070291210EA95B304FF630A2 /* FHXScannerVC.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FHXScannerVC/FHXScannerVC-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FHXScannerVC/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FHXScannerVC";
+				INFOPLIST_FILE = "Target Support Files/FHXScannerVC/ResourceBundle-Asserts-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FHXScannerVC/FHXScannerVC.modulemap";
-				PRODUCT_MODULE_NAME = FHXScannerVC;
-				PRODUCT_NAME = FHXScannerVC;
+				PRODUCT_NAME = Asserts;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
+		};
+		6A0111D8435246727CD3784AC1D5E9E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 870E210B070291210EA95B304FF630A2 /* FHXScannerVC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FHXScannerVC";
+				INFOPLIST_FILE = "Target Support Files/FHXScannerVC/ResourceBundle-Asserts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Asserts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		74E5F758E459F98235C189432F626617 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -753,6 +775,38 @@
 			};
 			name = Debug;
 		};
+		CC74812F41C77768B86361028BCC6E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 870E210B070291210EA95B304FF630A2 /* FHXScannerVC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FHXScannerVC/FHXScannerVC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FHXScannerVC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FHXScannerVC/FHXScannerVC.modulemap";
+				PRODUCT_MODULE_NAME = FHXScannerVC;
+				PRODUCT_NAME = FHXScannerVC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -817,59 +871,27 @@
 			};
 			name = Debug;
 		};
-		D65D79126D4B60CE51AB26396DA30A88 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19BBC3AF63BE6B9CB0CADA1C9D75439D /* FHXScannerVC.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FHXScannerVC";
-				INFOPLIST_FILE = "Target Support Files/FHXScannerVC/ResourceBundle-Asserts-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = Asserts;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		D8E1166340FEA19CFFBE478007F51A89 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19BBC3AF63BE6B9CB0CADA1C9D75439D /* FHXScannerVC.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FHXScannerVC/FHXScannerVC-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FHXScannerVC/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FHXScannerVC/FHXScannerVC.modulemap";
-				PRODUCT_MODULE_NAME = FHXScannerVC;
-				PRODUCT_NAME = FHXScannerVC;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0C7F39A0525830380A02CA690932250E /* Build configuration list for PBXNativeTarget "FHXScannerVC-Asserts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AE46F3DFA236547FAABD27DE1F94A8F /* Debug */,
+				6A0111D8435246727CD3784AC1D5E9E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179D374A8171237B7E461C0701D8D65A /* Build configuration list for PBXNativeTarget "FHXScannerVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC74812F41C77768B86361028BCC6E10 /* Debug */,
+				0E18B771C8E48BD2D712AD616D9D40CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -884,24 +906,6 @@
 			buildConfigurations = (
 				B4F6ECF0A42A9677F3728ADB38793C94 /* Debug */,
 				1263170CF38C5AB313E1BBEAC59FE1ED /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4F47CEE3A0BABFD6EC096DDC075529A5 /* Build configuration list for PBXNativeTarget "FHXScannerVC" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3F4E85F0CC3757F1E8D18C7AA68B7B44 /* Debug */,
-				D8E1166340FEA19CFFBE478007F51A89 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9A19AB7EDF1F99BF18CA26463CA37F11 /* Build configuration list for PBXNativeTarget "FHXScannerVC-Asserts" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D65D79126D4B60CE51AB26396DA30A88 /* Debug */,
-				0A7B2B71E57B663358048E9C674AAD85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

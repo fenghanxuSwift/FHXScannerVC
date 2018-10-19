@@ -22,11 +22,11 @@ public class ScannerViewController: UIViewController,AVCaptureMetadataOutputObje
   //1.创建Session
   let captureSession = AVCaptureSession()
   
-//  public override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?){
-//    super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-//    
-//  }
-//  
+  public override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?){
+    super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+    
+  }
+
 //  public required init?(coder aDecoder: NSCoder){
 //    super.init(coder: aDecoder)
 //    
@@ -38,6 +38,7 @@ public class ScannerViewController: UIViewController,AVCaptureMetadataOutputObje
   }
   
   required public init?(coder aDecoder: NSCoder) {
+    super.init(coder: aDecoder)
     fatalError("init(coder:) has not been implemented")
   }
   
