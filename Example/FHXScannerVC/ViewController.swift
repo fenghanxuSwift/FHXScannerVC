@@ -12,27 +12,24 @@ import AVFoundation
 
 class ViewController: UIViewController {
   
-  let views = ScannerView(frame: .zero)
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
       view.backgroundColor = UIColor.white
       
-      view.addSubview(views)
+      let vc = ScannerViewController()
       
-      views.frame = view.bounds
+      vc.reultString = {  (_ name:String?) -> Void in
+        print("resultString = \(String(describing: name))")
+      }
       
-      views.delegate = self
+      navigationController?.pushViewController(vc, animated: true)
       
     }
 
 }
 
-extension ViewController:ScannerViewDelegate {
-  
-  func scannerView(view: ScannerView, returnScanner resultString: String) {
-    print("retult = \(resultString)")
-  }
-}
+
 
 

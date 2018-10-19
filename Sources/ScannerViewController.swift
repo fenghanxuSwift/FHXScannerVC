@@ -9,27 +9,18 @@
 import UIKit
 import AVFoundation
 
-public protocol ScannerViewControllerDelegate:NSObjectProtocol {
-  func ScannerViewController(vc:ScannerViewController, returnScanner string:String)
-}
-
 public class ScannerViewController: UIViewController,AVCaptureMetadataOutputObjectsDelegate {
   
-  public weak var delegate:ScannerViewControllerDelegate?
+  public var reultString:((_ result:String?) -> Void)?
   
   //相机显示视图--苹果协议规定是串行队列
   let cameraView = ScannerBackgroundView(frame: UIScreen.main.bounds)
   //1.创建Session
   let captureSession = AVCaptureSession()
   
-  public override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?){
-    super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-    
-  }
-
-//  public required init?(coder aDecoder: NSCoder){
-//    super.init(coder: aDecoder)
-//    
+//  public override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?){
+//    super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+//
 //  }
   
   public init() {
@@ -142,7 +133,8 @@ extension ScannerViewController {
       //解码出来的一个网络地址
       print(metaData.stringValue)
       
-      delegate?.ScannerViewController(vc: self, returnScanner: metaData.stringValue)
+      reultString?(metaData.stringValue)
+      
       
       //创建一个控制器，把网址填进去进行登录。
 //      DispatchQueue.main.async(execute: {
