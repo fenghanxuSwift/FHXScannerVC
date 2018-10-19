@@ -8,30 +8,31 @@
 
 import UIKit
 import FHXScannerVC
+import AVFoundation
 
 class ViewController: UIViewController {
+  
+  let views = ScannerView(frame: .zero)
 
     override func viewDidLoad() {
         super.viewDidLoad()
       view.backgroundColor = UIColor.white
       
-      let scanBtn = UIButton()
-      view.addSubview(scanBtn)
-      scanBtn.setTitle("扫一扫", for: .normal)
-      scanBtn.setTitleColor(UIColor.blue, for: .normal)
-      scanBtn.layer.cornerRadius = 10
-      scanBtn.layer.masksToBounds = true
-      scanBtn.layer.borderWidth = 0.6
-      scanBtn.layer.borderColor = UIColor.red.cgColor
-      scanBtn.addTarget(self, action: #selector(scanBtnClick), for: .touchUpInside)
-      scanBtn.frame = CGRect(x: 150, y: 300, width: 50, height: 50)
+      view.addSubview(views)
+      
+      views.frame = view.bounds
+      
+      views.delegate = self
+      
     }
 
-  @objc func scanBtnClick(){
-    let vc = ScannerViewController()
-    navigationController?.pushViewController(vc, animated: true)
-//    navigationController?.pushViewController(WebViewController(), animated: true)
-  }
-
 }
+
+extension ViewController:ScannerViewDelegate {
+  
+  func scannerView(view: ScannerView, returnScanner resultString: String) {
+    print("retult = \(resultString)")
+  }
+}
+
 
